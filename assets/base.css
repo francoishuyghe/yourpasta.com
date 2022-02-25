@@ -2803,4 +2803,7 @@ details-disclosure > details {
   margin-right: 9px;
 }
 }
-  
+
+.password__social {
+  height: 70px
+}
