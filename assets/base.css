@@ -2789,21 +2789,132 @@ details-disclosure > details {
 
 /* Minh Anh Edits */
   
-.password__newsletter input[type=email] {
-  font-family: inherit;
-  font-size: 15px;
-  margin-left: 10px;
+body {
+    letter-spacing: 0rem;
+    -webkit-font-smoothing: antialiased;
 }
-    
-@media screen and (min-width: 750px){
-.password__social {
-  padding: 0 calc(var(--spacing));
+
+:root {
+    --spacing: 35px;
 }
-.password__newsletter input[type=submit] {
-  margin-right: 9px;
+
+/** LOGO **/
+
+@media only screen and (min-width: 750px){
+.password-header {
+    padding: var(--spacing);
 }
 }
 
+.password-header {
+    transform: none;
+}
+
+/** Header desktop **/
+
+@media screen and (min-width: 1000px) {
+.password-main p {
+    font-size: 5.5em;
+}
+}
+
+.password-main p {
+    line-height: 1.1em;
+    letter-spacing: -0.15rem;
+}
+
+/** Copyright Superscript **/
+/** Add non-breaking space between "your" and "pasta" **/
+
+
+@media screen and (min-width: 750px) {
+.password-main p:first-child:after {
+    line-height: 1.1em;
+    vertical-align: super;
+}
+}
+
+@media screen and (min-width: 750px) {
+.password__newsletter input[type=email] {
+    margin-right: 30px;
+}
+
+/** Coming Soon Superscript **/
+/** Remove space after "Brooklyn." **/
+
+.password-main p:last-child:after {
+    line-height: 1.1em;
+    vertical-align: super;
+    letter-spacing: 0;
+}
+
+/** Footer **/
+/** Replace Input copy with "Enter your email" **/
+
+.password__newsletter #mc_embed_signup_scroll h3 {
+    font-family: inherit;
+    letter-spacing: 0;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 750px) {
+.password__newsletter input[type=email] {
+    font-family: inherit;
+    margin-right: calc(var(--spacing));
+    margin-left: calc(var(--spacing));
+    font-size: 15px;
+}
+}
+
+.password__newsletter input[type=submit] {
+    font-size: 15px;
+    letter-spacing: 0;
+    padding: 0 0 9px 0;
+    margin-bottom: 9px;
+    padding-bottom: 0;
+}
+
+.password__newsletter {
+    min-width: 35%;
+}
+
+@media screen and (min-width: 750px){
+.password__newsletter #mc_embed_signup_scroll h3 {
+    padding: 0 calc(var(--spacing)) 9px;
+    padding-right: 0px;
+}
+}
+
+@media screen and (min-width: 750px){
+.password__newsletter #mc_embed_signup_scroll {
+    padding-left: 0;
+}
+}
+
+/** Mobile **/
+
+.password .password-wrap {
+    min-height: calc(100% - 62px);
+    margin: calc(var(--spacing)*0.90);
+}
+
+.password-main {
+    padding: 0 21px;
+}
+
+.password-header {
+    padding: 30px 21px 10px 21px;
+}
+
+.password-main p:last-child:after {
+    margin-top: 25px;
+}
+
 .password__social {
-  height: 70px
+    padding: 0 30px;
+    height: 61px;
+}
+
+.password__newsletter input[type=email] {
+    margin-left: 30px;
 }
