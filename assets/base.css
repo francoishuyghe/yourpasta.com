@@ -2801,4 +2801,5 @@ details-disclosure > details {
   
 .password__newsletter input[type=email] {
   font-family: inherit;
+  font-size: 15px;
 }
