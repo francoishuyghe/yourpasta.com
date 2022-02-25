@@ -2807,3 +2807,8 @@ details-disclosure > details {
 .password__social {
   height: 70px
 }
+  
+.password__newsletter input[type=submit] {
+  margin-right: 9px;
+
+}
