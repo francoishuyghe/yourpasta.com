@@ -2797,6 +2797,10 @@ details-disclosure > details {
     
 @media screen and (min-width: 750px){
 .password__social {
-    padding: 0 calc(var(--spacing));
+  padding: 0 calc(var(--spacing));
+}
+.password__newsletter input[type=submit] {
+  margin-right: 9px;
 }
 }
+  
