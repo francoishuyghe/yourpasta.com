@@ -2815,6 +2815,6 @@ details-disclosure > details {
  padding-right: 4px
 }
   
-a:hover {
+.password__social .link:hover {
   text-decoration: none;
 }
