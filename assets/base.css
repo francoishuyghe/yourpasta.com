@@ -2818,3 +2818,7 @@ details-disclosure > details {
 .password__social .link:hover {
   text-decoration: none;
 }
+  
+.password-main p:last-child:after {
+  content: "Coming Soon."
+}
