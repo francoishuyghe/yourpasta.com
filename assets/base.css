@@ -2814,3 +2814,7 @@ details-disclosure > details {
 .password__newsletter input[type=submit] {
  padding-right: 4px
 }
+  
+a:hover {
+  text-decoration: none;
+}
