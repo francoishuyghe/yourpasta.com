@@ -2786,3 +2786,11 @@ details-disclosure > details {
     }
   }
 }
+
+/* Minh Anh Edits */
+  
+@media screen and (min-width: 750px){
+.password__social {
+    padding: 0 calc(var(--spacing));
+}
+}
