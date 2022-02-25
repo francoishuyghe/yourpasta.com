@@ -2803,3 +2803,9 @@ details-disclosure > details {
   font-family: inherit;
   font-size: 15px;
 }
+  
+@media screen and (min-width: 750px){
+  .password__newsletter #mc_embed_signup_scroll {
+    padding-left: 0px;
+}
+}
