@@ -2800,7 +2800,6 @@ details-disclosure > details {
   padding: 0 calc(var(--spacing));
 }
 .password__newsletter input[type=submit] {
-  margin-right: 9px;
 }
 }
 
