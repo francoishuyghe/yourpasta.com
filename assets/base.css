@@ -2789,7 +2789,10 @@ details-disclosure > details {
 
 /* Minh Anh Edits */
   
-
+body {
+    letter-spacing: 0rem;
+    -webkit-font-smoothing: antialiased;
+}
 
 :root {
     --spacing: 35px;
