@@ -2801,8 +2801,6 @@ details-disclosure > details {
 .password__social {
   padding: 0 calc(var(--spacing));
 }
-.password__newsletter input[type=submit] {
-}
 }
 
 .password__social {
