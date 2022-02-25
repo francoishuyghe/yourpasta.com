@@ -2789,22 +2789,7 @@ details-disclosure > details {
 
 /* Minh Anh Edits */
   
-body {
-    letter-spacing: 0rem;
-    -webkit-font-smoothing: antialiased;
-}
 
-:root {
-    --spacing: 35px;
-}
-
-/** LOGO **/
-
-@media only screen and (min-width: 750px){
-.password-header {
-    padding: var(--spacing);
-}
-}
 
 .password-header {
     transform: none;
