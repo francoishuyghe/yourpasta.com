@@ -2808,7 +2808,7 @@ details-disclosure > details {
   height: 70px
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 400px){
 .password__newsletter input[type=submit] {
   transform: translateX(-20px);
 }
