@@ -2806,3 +2806,6 @@ details-disclosure > details {
   height: 70px
 }
   
+.password__newsletter #mc_embed_signup_scroll {
+ padding-left: 0px
+}
