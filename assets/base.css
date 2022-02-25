@@ -2789,17 +2789,21 @@ details-disclosure > details {
 
 /* Minh Anh Edits */
   
-@media screen and (min-width: 750px){
-.password__social {
-    padding: 0 calc(var(--spacing));
-}
-}
-  
 .password__newsletter input[type=email] {
   font-family: inherit;
   font-size: 15px;
 }
   
+.password-main p {
+  font-size: 2.4em;
+  font-height: 1em;
+}
+  
 .password__newsletter #mc_embed_signup_scroll {
 }
   
+@media screen and (min-width: 750px){
+.password__social {
+    padding: 0 calc(var(--spacing));
+}
+}
