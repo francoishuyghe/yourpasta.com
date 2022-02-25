@@ -2809,3 +2809,7 @@ details-disclosure > details {
 .password__newsletter #mc_embed_signup_scroll {
  padding-left: 0px
 }
+  
+.password__newsletter {
+ padding-left: 30px
+}
