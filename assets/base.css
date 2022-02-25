@@ -2807,7 +2807,9 @@ details-disclosure > details {
 .password__social {
   height: 70px
 }
-  
+
+@media screen and (max-width: 750px){
 .password__newsletter input[type=submit] {
   transform: translateX(-20px);
+}
 }
