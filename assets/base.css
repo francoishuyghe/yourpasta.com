@@ -2794,3 +2794,7 @@ details-disclosure > details {
     padding: 0 calc(var(--spacing));
 }
 }
+  
+.password__newsletter #mc_embed_signup_scroll {
+    padding-left: 30px;
+}
