@@ -2811,3 +2811,6 @@ details-disclosure > details {
  padding-left: 0px;
 }
   
+.password__newsletter input[type=submit] {
+ transform:translateX(-4px)
+}
