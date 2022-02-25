@@ -2809,6 +2809,6 @@ details-disclosure > details {
 }
   
 .password__newsletter input[type=submit] {
-  margin-right: 9px;
+  padding-right: 9px;
 
 }
