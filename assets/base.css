@@ -2830,6 +2830,8 @@ details-disclosure > details {
   font-style: normal;
 }
 
-body {
+body, a, p {
   font-family: "Banana";
+  font-weight: normal;
+  font-style: normal;
 }
