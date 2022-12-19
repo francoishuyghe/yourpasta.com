@@ -2830,6 +2830,6 @@ details-disclosure > details {
   font-style: normal;
 }
 
-body, a, p, span, .card-information {
+body, a, p, span, .card-information, h1, h2, h3, h4, h5 {
   font-family: "Banana";
 }
