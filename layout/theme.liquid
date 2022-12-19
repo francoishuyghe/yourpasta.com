@@ -186,14 +186,6 @@
         body {
           font-size: 1.6rem;
         }
-        
-     @font-face {
-          font-family: "MNKYBananaGrotesk"; src: url("{{ '[MNKYBananaGrotesk-Regular.woff]' | file_url }}") format("[woff]")
-        }
-      }
-      body, a {
-        font-family: "MNKYBananaGrotesk" !important;
-      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
