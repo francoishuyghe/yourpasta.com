@@ -2821,10 +2821,3 @@ details-disclosure > details {
 .password__social .link:hover {
   text-decoration: none;
 }
- @font-face {
-          font-family: "MNKYBananaGrotesk"; src: url("{{ '[MNKYBananaGrotesk-Regular.woff]' | file_url }}") format("[woff]")
-        }
-      }
-      body, a {
-        font-family: "MNKYBananaGrotesk" !important;
-      }
