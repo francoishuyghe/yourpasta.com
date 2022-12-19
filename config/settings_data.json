@@ -25,7 +25,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/YourPasta_Wordmark_rgb.png",
+          "logo_width": 130,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
